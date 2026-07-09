@@ -1,0 +1,63 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LLM Evaluation Platform dashboard preview</title>
+  <desc id="desc">Dashboard preview with quality metrics, prompt registry, evaluation workbench, latest runs, and golden dataset.</desc>
+  <rect width="1280" height="720" fill="#F5F7F8"/>
+  <rect x="48" y="44" width="1184" height="632" rx="18" fill="#FFFFFF" stroke="#DCE3E6"/>
+  <rect x="48" y="44" width="1184" height="74" rx="18" fill="#1C2328"/>
+  <circle cx="91" cy="82" r="10" fill="#F87171"/>
+  <circle cx="122" cy="82" r="10" fill="#FBBF24"/>
+  <circle cx="153" cy="82" r="10" fill="#34D399"/>
+  <text x="190" y="88" fill="#F8FAF7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">LLM Evaluation Platform</text>
+  <rect x="934" y="64" width="118" height="36" rx="18" fill="#E9F7F4"/>
+  <text x="960" y="87" fill="#14695B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">LLM Judge</text>
+  <rect x="1068" y="64" width="128" height="36" rx="18" fill="#FFF8E8"/>
+  <text x="1092" y="87" fill="#875412" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Quality Gates</text>
+
+  <text x="78" y="158" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="16">Portfolio Project 2</text>
+  <text x="78" y="198" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">Prompt Quality and Regression Dashboard</text>
+  <text x="78" y="230" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="17">Track correctness, faithfulness, hallucination resistance, latency, and cost across models.</text>
+
+  <rect x="78" y="268" width="254" height="106" rx="10" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="102" y="304" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="15">Evaluation Runs</text>
+  <text x="102" y="350" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">312</text>
+  <text x="102" y="404" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="14">Tracked prompt tests</text>
+  <rect x="352" y="268" width="254" height="106" rx="10" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="376" y="304" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="15">Pass Rate</text>
+  <text x="376" y="350" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">87%</text>
+  <text x="376" y="404" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="14">Quality gate pass</text>
+  <rect x="626" y="268" width="254" height="106" rx="10" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="650" y="304" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="15">Latency</text>
+  <text x="650" y="350" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">1460 ms</text>
+  <text x="650" y="404" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="14">Average response time</text>
+  <rect x="900" y="268" width="254" height="106" rx="10" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="924" y="304" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="15">Cost Today</text>
+  <text x="924" y="350" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">$18.42</text>
+  <text x="924" y="404" fill="#627079" font-family="Inter, Arial, sans-serif" font-size="14">Evaluation spend</text>
+
+  <rect x="78" y="428" width="274" height="184" rx="10" fill="#FFFFFF" stroke="#DCE3E6"/>
+  <text x="102" y="462" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Prompt Registry</text>
+  <rect x="102" y="486" width="210" height="34" rx="8" fill="#EFFAF7" stroke="#A8D8C7"/>
+  <text x="120" y="508" fill="#14695B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Support Triage v3.0</text>
+  <rect x="102" y="534" width="210" height="34" rx="8" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="120" y="556" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="14">Policy QA v2.1</text>
+
+  <rect x="382" y="428" width="342" height="184" rx="10" fill="#FFFFFF" stroke="#DCE3E6"/>
+  <text x="406" y="462" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Evaluation Workbench</text>
+  <rect x="406" y="486" width="138" height="34" rx="8" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="426" y="508" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="14">gpt-4.1</text>
+  <rect x="406" y="534" width="280" height="34" rx="8" fill="#F7FAFB" stroke="#DCE3E6"/>
+  <text x="426" y="556" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="14">Duplicate billing, renewal risk...</text>
+  <rect x="406" y="580" width="132" height="34" rx="8" fill="#1C2328"/>
+  <text x="432" y="602" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Run Eval</text>
+
+  <rect x="754" y="428" width="400" height="184" rx="10" fill="#FFFFFF" stroke="#DCE3E6"/>
+  <text x="778" y="462" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Latest Run</text>
+  <text x="778" y="496" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="14">Correctness</text>
+  <rect x="778" y="506" width="300" height="9" rx="5" fill="#E8EEF0"/>
+  <rect x="778" y="506" width="279" height="9" rx="5" fill="#14695B"/>
+  <text x="1090" y="514" fill="#14695B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">93%</text>
+  <text x="778" y="548" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="14">Faithfulness</text>
+  <rect x="778" y="558" width="300" height="9" rx="5" fill="#E8EEF0"/>
+  <rect x="778" y="558" width="273" height="9" rx="5" fill="#14695B"/>
+  <text x="1090" y="566" fill="#14695B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">91%</text>
+</svg>

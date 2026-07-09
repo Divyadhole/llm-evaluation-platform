@@ -1,0 +1,44 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LLM Evaluation Platform architecture</title>
+  <desc id="desc">Architecture diagram for prompt versions, golden datasets, model execution, judges, dashboards, and observability.</desc>
+  <rect width="1280" height="640" fill="#F5F7F8"/>
+  <text x="64" y="72" fill="#1C2328" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Evaluation Architecture</text>
+  <text x="64" y="106" fill="#52616A" font-family="Inter, Arial, sans-serif" font-size="18">From prompt versions and golden datasets to model scoring, quality gates, and observability.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#52616A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="64" y="180" width="190" height="94" rx="12" fill="#FFFFFF" stroke="#DCE3E6"/>
+    <text x="94" y="222" fill="#1C2328" font-size="20" font-weight="800">Prompt Versions</text>
+    <text x="94" y="250" fill="#627079" font-size="15">Tracked changes</text>
+    <rect x="64" y="340" width="190" height="94" rx="12" fill="#FFFFFF" stroke="#DCE3E6"/>
+    <text x="94" y="382" fill="#1C2328" font-size="20" font-weight="800">Golden Dataset</text>
+    <text x="94" y="410" fill="#627079" font-size="15">Expected answers</text>
+    <rect x="344" y="258" width="212" height="112" rx="12" fill="#FFFFFF" stroke="#DCE3E6"/>
+    <text x="376" y="302" fill="#1C2328" font-size="20" font-weight="800">Evaluation Runner</text>
+    <text x="376" y="332" fill="#627079" font-size="15">Batch and ad hoc tests</text>
+    <rect x="646" y="160" width="212" height="94" rx="12" fill="#EFFAF7" stroke="#A8D8C7"/>
+    <text x="678" y="202" fill="#14695B" font-size="20" font-weight="800">Model Outputs</text>
+    <text x="678" y="230" fill="#315F53" font-size="15">GPT, Claude, Gemini, Llama</text>
+    <rect x="646" y="320" width="212" height="94" rx="12" fill="#FFF8E8" stroke="#F0CC92"/>
+    <text x="678" y="362" fill="#875412" font-size="20" font-weight="800">Judges</text>
+    <text x="678" y="390" fill="#765A30" font-size="15">LLM, human, heuristic</text>
+    <rect x="948" y="160" width="224" height="94" rx="12" fill="#FFFFFF" stroke="#DCE3E6"/>
+    <text x="980" y="202" fill="#1C2328" font-size="20" font-weight="800">Quality Gates</text>
+    <text x="980" y="230" fill="#627079" font-size="15">Regression alerts</text>
+    <rect x="948" y="320" width="224" height="94" rx="12" fill="#FFFFFF" stroke="#DCE3E6"/>
+    <text x="980" y="362" fill="#1C2328" font-size="20" font-weight="800">Dashboard</text>
+    <text x="980" y="390" fill="#627079" font-size="15">Latency, quality, cost</text>
+    <line x1="254" y1="227" x2="330" y2="288" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="254" y1="387" x2="330" y2="340" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="556" y1="298" x2="632" y2="220" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="556" y1="330" x2="632" y2="360" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="858" y1="207" x2="934" y2="207" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="858" y1="367" x2="934" y2="367" stroke="#52616A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="64" y="520" width="1108" height="48" rx="10" fill="#1C2328"/>
+    <text x="94" y="551" fill="#FFFFFF" font-size="16" font-weight="700">Roadmap:</text>
+    <text x="180" y="551" fill="#E8EEF0" font-size="16">A/B tests · experiment tracking · Langfuse · Phoenix · MLflow · CI quality gates</text>
+  </g>
+</svg>
