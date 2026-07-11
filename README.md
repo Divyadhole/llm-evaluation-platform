@@ -136,6 +136,3 @@ npm run build
 - Add Phoenix or MLflow experiment views.
 - Add release quality gates in CI.
 
-## Resume Bullet
-
-Built an LLM evaluation platform with a React quality dashboard and FastAPI backend for prompt versioning, golden datasets, model comparison, LLM-as-judge scoring, regression checks, latency and cost tracking, Dockerized services, and CI-ready validation.
